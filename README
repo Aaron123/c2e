@@ -1,0 +1,32 @@
+c2e
+
+WHAT IS C2E?
+c2e is a simple tool used to translate english words to chinese
+
+HOW TO INSTALL C2E?
+#tar -xvzf c2e.tar.gz
+#make
+#make install
+
+UNINSTALL
+#make uninstall
+
+
+TODO
+* Allow it to translate from chinese to english words
+* Manage $HOME/.wordlist.txt
+    Delete repeated words
+    Sort the words by frequency
+    Get more meaning from website
+
+VERSION
+0.0 - first version Alex works :)
+
+LICENSE
+
+GNU GPL, see the LICENSE file for details
+
+CONTACT
+Email: lkong@redhat.com
+
+Please  email me about problems, experiences, fixes, etc.
