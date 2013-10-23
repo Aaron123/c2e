@@ -210,8 +210,7 @@ int main(int argc,char *argv[])
     char *wordlist = NULL;
     wordlist = (char*)malloc(sizeof(char)*(strlen(homedir)+strlen("/.wordlist.txt")));
     memset(wordlist, 0, sizeof(char)*(strlen(homedir)+strlen("/.wordlist.txt")));
-    strcpy(wordlist, homedir);
-    strcat(wordlist, "/.wordlist.txt");
+    sprintf(wordlist, "%s/.wordlist.txt", homedir);
 
     FILE *fw = NULL;
     fw = fopen(wordlist, "a+");
